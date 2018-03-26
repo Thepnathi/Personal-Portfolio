@@ -1,0 +1,57 @@
+body {
+  text-align: center;
+  /* background-color:	#212121; */
+  /* height: 100%; */
+  color: hsv(225, 20%, 7%);
+}
+
+.introduction {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: stretch;
+}
+
+.animated-title {
+  margin-top: 50px;
+  margin-left: 70px;
+  text-align: left;
+}
+
+.intro-parts {
+  margin-left: 5px;
+  margin-top: 150px;
+  width: 200px;
+  margin-right: 10px;
+}
+
+.profile-image {
+  height: 510px !important;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 20px;
+  letter-spacing: 3px;
+  text-align: center;
+  font-size: 3em;
+}
+
+p {
+  font-size: 1.3em;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+
+span {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
