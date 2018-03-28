@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
+// TODO: make sure to remove later // We may not need this because swipeable
+// NOTE:
+// IDEA:
+import SwipeableViews from 'react-swipeable-views';
 import MyNavbar from './components/my-navbar';
 import Home from './components/home'
 import Contacts from './components/contacts';
@@ -11,6 +15,9 @@ class App extends Component {
       <Router>
         <div>
           <MyNavbar />
+
+
+
           <Route exact path="/" component={Home} />
           <Route path="/contacts" component={Contacts} />
         </div>
