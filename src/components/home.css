@@ -5,6 +5,7 @@ body {
   color: hsv(225, 20%, 7%);
 }
 
+/* the top section of the page */
 .introduction {
   display: flex;
   flex-direction: row;
@@ -54,4 +55,10 @@ span {
   50% {
     border-color: transparent;
   }
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: #c7c1c7;
 }

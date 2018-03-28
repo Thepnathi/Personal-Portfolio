@@ -5,7 +5,7 @@ export default class AboutMe extends Component {
     return (
       <div>
         <h2>A Brief Summary of Myself</h2>
-        <p>Born in Thailand, moved to the UK before secondary school. In term of personality, I am an incredibly optimistic and layed back person.
+        <p> In term of personality, I am an incredibly optimistic and layed back person.
           From work experience, I have a strong communication skills, I enjoy and thrived on working with others. I am currently
           a student in University of Liverpool studying Computer Science (2017 to 2021). I will be taking a year in industry to developed experiences.
         </p>
