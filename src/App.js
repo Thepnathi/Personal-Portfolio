@@ -3,13 +3,21 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import {Tabs, Tab} from 'material-ui/Tabs';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import getMuiTheme from 'material-ui/styles/getMuiTheme';
 // TODO: make sure to remove later // We may not need this because swipeable
 import SwipeableViews from 'react-swipeable-views';
 import MyNavbar from './components/my-navbar';
-import Home from './components/home'
-import Projects from './components/project'
+import Home from './components/home';
+import Projects from './components/project';
 import Contacts from './components/contacts';
-import './App.css';
+import './App.css'
+import {cyan500, black} from 'material-ui/styles/colors';
+
+const muiTheme = getMuiTheme({
+  palette: {
+    textColor: 'black',
+  },
+});
 
 const styles = {
   headline: {
@@ -23,8 +31,7 @@ const styles = {
   },
 };
 
-
-class App extends Component {
+export default class App extends Component {
 
   constructor(props) {
     super(props);
@@ -41,8 +48,8 @@ class App extends Component {
 
   render() {
     return (
-      <MuiThemeProvider>
-      <Tabs
+      <MuiThemeProvider muiTheme={muiTheme}>
+      <Tabs className = "test"
         onChange={this.handleChange}
         value={this.state.slideIndex}
       >
@@ -53,10 +60,10 @@ class App extends Component {
         <Tab label="Github" value={4} />
       </Tabs>
       <SwipeableViews
-        index={this.state.slideIndex}
+        index={this.state.slideIndex} 
         onChangeIndex={this.handleChange}
       >
-        <div>
+        <div >
           <Home />
         </div>
         <div style={styles.slide}>
@@ -76,5 +83,3 @@ class App extends Component {
     );
   }
 }
-
-export default App;
