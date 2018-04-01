@@ -9,7 +9,7 @@
 
 .introduction > div {
   /* enable backgroudn to see the grid columns */
-  background: #eee;
+  /* background: #eee; */
   padding: 1em;
 }
 
@@ -20,10 +20,11 @@
 .box2 {
   grid-column: 5/6;
   grid-row: 1/4;
+  background: #eee;
 }
 
 .box7 {
-  grid-column: 1/5; 
+  grid-column: 1/5;
 }
 
 .intro-parts {
@@ -37,7 +38,7 @@
 }
 
 .profile-image {
-  height: 510px;
+  height: 310px;
   /* height: 510px !important; */
 }
 
@@ -46,7 +47,7 @@ h1 {
   font-family: 'Lato', sans-serif;
   letter-spacing: 3px;
   text-align: center;
-  font-size: 3em;
+  font-size: 4em;
 }
 
 p {

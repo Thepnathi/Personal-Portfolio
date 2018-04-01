@@ -7,8 +7,9 @@ export default class AboutMe extends Component {
       <div>
         <div className="wrapper">
           <div>
-            <h2>Technologies and Skills</h2>
-              <p>Web Development: Javascript, ES5, ES6, React, Redux, Node, Express, MongoDB, Oranges</p>
+            <h2>Web Development Skills</h2>
+              <p>On my spare time I am currently working on full-stack web application projects</p>
+              <p>Javascript, ES5, ES6, React, Redux, Node, Express, MongoDB, Oranges</p>
               <p>Git, Android Development, Java, Haskell, C++</p>
               <p>OS: MacOS, Windows, Linux</p>
 
@@ -19,7 +20,7 @@ export default class AboutMe extends Component {
                 <div><img src="../assets/java-logo.png" className="logo java"/></div>
                 <div><img src="../assets/android-logo.png" className="logo android"/></div>
               </div>
-              
+
           </div>
 
           <div>
