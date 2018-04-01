@@ -15,14 +15,10 @@ export default class Home extends Component {
                   <p className="intro-parts">Every projects built by me has a real life purpose. Want to hear a joke? Click here.</p>
                   <p className="intro-parts">Have an interesting idea to change the world? Or want to create something fun?
                     <a componentClass={Link} href="/contacts" to="/contact">Get in touch.</a></p>
-                    <Image className="intro-parts" className="profile-image" src="../assets/profile-pic.png"  href="somepage"/>
+                    <img className="intro-parts" className="profile-image" src="../assets/profile-pic.png"  href="somepage"/>
             </div>
         </div>
 
-        <div className="footer">
-          <Image className="icons" height="50px" src="../assets/linkedin.svg" href="/" />
-          <Image className="icons" height="50px" src="../assets/linkedin.svg" href="/" />
-        </div>
     </div>
     )
   }

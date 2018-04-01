@@ -8,7 +8,7 @@ import Home from './components/home';
 import AboutMe from './components/about-me';
 import Projects from './components/project';
 import Contacts from './components/contacts';
-import './App.css'
+import './App.css';
 
 
 export default class App extends Component {
@@ -17,9 +17,8 @@ export default class App extends Component {
       <Router>
         <div>
           <MyNavbar />
-          <Route exact path="/" component={Home} />
-          <Route path="/about-me" component={AboutMe} />
-          <Route path="/projects" component={Projects} />
+          <Route exact path="/" component={Home}></Route>
+          <Route  path="/about-me" component={AboutMe}></Route>
         </div>
       </Router>
     );

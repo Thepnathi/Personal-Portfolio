@@ -16,15 +16,17 @@
   background: #ddd;
 }
 
-.technologies-icon-stacks {
- display: grid;
- grid-template-columns: repeat(5, 1fr);
- margin-top: 3em;
-}
-
 h2 {
   text-align: center;
   margin-bottom: 1em;
+}
+
+.technologies-icon-stacks {
+ display: grid;
+ grid-template-columns: repeat(5, 1fr);
+ grid-gap: 1em;
+ object-fit: cover;
+ margin-top: 3em;
 }
 
 .logo {
@@ -33,11 +35,21 @@ h2 {
 }
 
 .react {
-  height: 100px;
   width: 150px;
 }
 
 .node {
-  height: 100px;
   width: 200px;
+}
+
+.mongodb {
+  width: 100px;
+}
+
+.java {
+  width: 100px;
+}
+
+.android {
+  width: 80px;
 }
