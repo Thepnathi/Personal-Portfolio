@@ -9,8 +9,9 @@ export default class AboutMe extends Component {
           <div>
             <h2>Technologies and Skills</h2>
               <p>Web Development: Javascript, ES5, ES6, React, Redux, Node, Express, MongoDB, Oranges</p>
-              <p>I also have experiences programming in the following languages:</p>
-              <p>Android Development, Java, Haskell, C++</p>
+              <p>Git, Android Development, Java, Haskell, C++</p>
+              <p>OS: MacOS, Windows, Linux</p>
+
               <div className="technologies-icon-stacks">
                 <div><img src="../assets/react-logo.png" className="logo react"/></div>
                 <div><img src="../assets/node-logo.png" className="logo node"/></div>
@@ -18,6 +19,7 @@ export default class AboutMe extends Component {
                 <div><img src="../assets/java-logo.png" className="logo java"/></div>
                 <div><img src="../assets/android-logo.png" className="logo android"/></div>
               </div>
+              
           </div>
 
           <div>

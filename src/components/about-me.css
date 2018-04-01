@@ -23,33 +23,12 @@ h2 {
 
 .technologies-icon-stacks {
  display: grid;
- grid-template-columns: repeat(5, 1fr);
+ grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
  grid-gap: 1em;
- object-fit: cover;
  margin-top: 3em;
 }
 
 .logo {
   height: 100%;
   width: 100%;
-}
-
-.react {
-  width: 150px;
-}
-
-.node {
-  width: 200px;
-}
-
-.mongodb {
-  width: 100px;
-}
-
-.java {
-  width: 100px;
-}
-
-.android {
-  width: 80px;
 }

@@ -30,3 +30,13 @@ I like simple design. A good design should be invisible.
 
 Why do I write blog. To record the journeys of my life.
 To dumb down concepts I find difficult. Force myself to teach it to other
+
+
+<div><h1 className="animated-title">Welcome Back.</h1></div>
+  <div><p className="intro-parts">Self-taught full-stack developer
+     with experience in other software fields. Arms with the tools to bring ideas to life.</p></div>
+  <div><p className="intro-parts">Computer Science student with creativity and problem solving skills.</p></div>
+  {/* <div><p className="intro-parts">Every projects built by me has a real life purpose. Want to hear a joke? Click here.</p></div> */}
+  <p className="intro-parts">Have an interesting idea to change the world? Or want to create something fun?
+    <a componentClass={Link} href="/contacts" to="/contact">Get in touch.</a></p>
+  <img className="intro-parts" className="profile-image" src="../assets/profile-pic.png"  href="somepage"/>
