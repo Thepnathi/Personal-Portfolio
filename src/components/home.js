@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Grid, Row, Col, Image } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './home.css';
-import './about-me.css'
 
 export default class Home extends Component {
   render() {
@@ -20,29 +19,11 @@ export default class Home extends Component {
             </div>
         </div>
 
-        <h2>About Me Section</h2>
-
-        <div className="about-me">
-          <div className="experience">
-            <h2>Experiences</h2>
-              <p>Experiences goes here</p>
-          </div>
-
-          <div className="skills">
-            <h2>Technologies and Skills</h2>
-            
-          </div>
-
-        </div>
-
         <div className="footer">
-          <Image className="icons" src="../assets/linkedin.svg" href="/" />
-          <Image className="icons" src="../assets/linkedin.svg" href="/" />
+          <Image className="icons" height="50px" src="../assets/linkedin.svg" href="/" />
+          <Image className="icons" height="50px" src="../assets/linkedin.svg" href="/" />
         </div>
-
-
     </div>
-
     )
   }
 }

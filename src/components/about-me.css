@@ -1,7 +1,43 @@
-.about-me {
-  margin-top: 50px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-item: stretch;
+/* WARNING:  */
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1.7fr 1.3fr;
+  grid-gap: 1em;
+  margin-top: 5%;
+}
+
+.wrapper > div {
+  background: #eee;
+  padding: 1em;
+}
+
+.wrapper > div:nth-child(even) {
+  background: #ddd;
+}
+
+.technologies-icon-stacks {
+ display: grid;
+ grid-template-columns: repeat(5, 1fr);
+ margin-top: 3em;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.logo {
+  height: 100%;
+  width: 100%;
+}
+
+.react {
+  height: 100px;
+  width: 150px;
+}
+
+.node {
+  height: 100px;
+  width: 200px;
 }
