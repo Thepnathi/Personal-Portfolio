@@ -9,6 +9,7 @@ import AboutMe from './components/about-me';
 import Projects from './components/projects';
 import Contacts from './components/contacts';
 import './App.css';
+import './components/my-theme.css';
 
 
 export default class App extends Component {

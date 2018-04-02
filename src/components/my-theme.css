@@ -1,0 +1,16 @@
+/* Universal stylesheet */
+/* apply these class to change the theme */
+
+.theme-colour {
+  background: rgb(241, 244, 130);
+  color: black;
+}
+
+.section-header {
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+  text-align: center;
+  font-size: 3.5em;
+  padding: 0.5em;
+  margin: 0;
+}

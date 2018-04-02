@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import { Grid, Row, Col, Image } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import AboutMe from './about-me';
 import MyFooter from './footer';
+import Projects from './projects';
 import './home.css';
 
 export default class Home extends Component {
@@ -15,10 +17,10 @@ export default class Home extends Component {
               <h2 className="intro-title">Computer Science Student</h2>
             </div>
 
-            <div className="box2">
+            <div className="box2 short-bio">
               <img className="intro-parts" className="profile-image" src="../assets/profile-pic.png"  href="somepage"/>
               <h2>About Me</h2>
-              <p className="short-bio">Aspiring software developer. Persuading computer science degree in University of Liverpool with a year in industry.
+              <p>Aspiring software developer. Persuading computer science degree in University of Liverpool with a year in industry.
                 (Available for internship from summer 2019). Member of the University of Liverpool Archery Club.</p>
             </div>
 
@@ -27,14 +29,9 @@ export default class Home extends Component {
             <div className="bio-box box5"><p className="intro-parts">Every projects built by me has a real life purpose. Want to hear a joke? Click here.</p></div>
             <div className="bio-box box6"><p className="intro-parts">Have an idea to change the world? Or want to create something fun?
               <a componentClass={Link} href="/contacts" to="/contact"> Get in touch.</a></p></div>
-            <div className="line"></div>
-            <div className="box7"></div>
-            <div className="box4"></div>
-            <div className="box4"></div>
-            <div className="box4"></div>
           </div>
-
-          <MyFooter />
+          <AboutMe />
+          <Projects />
     </div>
     )
   }

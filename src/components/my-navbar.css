@@ -1,3 +1,7 @@
+.navbar-default {
+  background: rgb(241, 244, 130);
+}
+
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     font-family: 'Lato', sans-serif;
     border-color: #101010;
