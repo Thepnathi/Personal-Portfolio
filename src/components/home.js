@@ -9,21 +9,24 @@ export default class Home extends Component {
     return (
       <div>
           <div className="introduction">
-            <div className="box1"><h1 className="animated-title">Welcome Back.</h1></div>
-            <div className="box2"><img className="intro-parts" className="profile-image" src="../assets/profile-pic.png"  href="somepage"/>Quid deserunt praesentibus in voluptate nulla a officia philosophari ne senserit
-            si nulla ex aliqua se cernantur ex sunt. Laboris transferrem in nostrud, an non
-            exquisitaque. Probant duis constias iudicem est sint nescius graviterque.Nam
-            enim fugiat iis officia. Nostrud sint ubi pariatur efflorescere si laboris
-            cillum mentitum. Voluptate nulla incididunt, e export litteris singulis, sed ad
-            transferrem, de anim nulla in arbitror. Tamen mandaremus hic quid sint, ab
-            senserit ubi laboris, an malis constias ad si labore singulis illustriora ne
-            velit arbitror non probant, esse e appellat, e veniam cernantur singulis se de
-            aliquip non expetendis.</div>
-            <div className="box3"><p className="intro-parts">Self-taught full-stack developer
+            <div className="box1">
+              <h1 className="animated-title">Welcome Back.</h1>
+              <h2 className="intro-title">Self-Taught Full-Stack Developer</h2>
+              <h2 className="intro-title">Computer Science Student</h2>
+            </div>
+
+            <div className="box2">
+              <img className="intro-parts" className="profile-image" src="../assets/profile-pic.png"  href="somepage"/>
+              <h2>About Me</h2>
+              <p className="short-bio">Aspiring Software developer. Persuading Computer Science Degree in University of Liverpool with a year in industry.
+                (I am available for internship from summer 2019). Currently working on exciting technologies using the MERN stack (MongoDB, Express, React and Node).</p>
+            </div>
+
+            <div className="bio-box box3"><p className="intro-parts">Self-taught full-stack developer
                with experience in other software fields.</p></div>
-            <div className="box4"><p className="intro-parts">Computer Science student with creativity and problem solving skills.</p></div>
-            <div className="box5"><p className="intro-parts">Every projects built by me has a real life purpose. Want to hear a joke? Click here.</p></div>
-            <div className="box6"><p className="intro-parts">Have an idea to change the world? Or want to create something fun?
+            <div className="bio-box box4"><p className="intro-parts">Computer Science student with creativity and problem solving skills.</p></div>
+            <div className="bio-box box5"><p className="intro-parts">Every projects built by me has a real life purpose. Want to hear a joke? Click here.</p></div>
+            <div className="bio-box box6"><p className="intro-parts">Have an idea to change the world? Or want to create something fun?
               <a componentClass={Link} href="/contacts" to="/contact"> Get in touch.</a></p></div>
             <div className="line"></div>
             <div className="box7"></div>
