@@ -7,9 +7,9 @@ export default class MyFooter extends Component {
     return (
       <div>
         <div className="footer-wrapper">
-          <div><img src="" /></div>
-          <div><img src="" /></div>
-          <div><img src="" /></div>
+          <div><img className="social-logo" src="" /></div>
+          <div><img className="social-logo" src="" /></div>
+          <div><img className="social-logo" src="" /></div>
         </div>
       </div>
     )

@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import MyNavbar from './components/my-navbar';
 import Home from './components/home';
 import AboutMe from './components/about-me';
-import Projects from './components/project';
+import Projects from './components/projects';
 import Contacts from './components/contacts';
 import './App.css';
 
@@ -19,6 +19,7 @@ export default class App extends Component {
           <MyNavbar />
           <Route exact path="/" component={Home}></Route>
           <Route  path="/about-me" component={AboutMe}></Route>
+          <Route path="/projects" component={Projects}></Route>
         </div>
       </Router>
     );
