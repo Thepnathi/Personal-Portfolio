@@ -5,7 +5,7 @@ export default class Projects extends Component {
   render() {
     return (
       <div>
-        <h2>Project History</h2>
+        <h2 className="section-header">Project History</h2>
         <div>
           <p>My of my projects are personal pet projects. I have created these tools to help me one way or another. With my limited time I
             am currently focusing on Web development. You will see me occasionally switch to Android development. One of my goal in 2018 is
@@ -30,6 +30,8 @@ export default class Projects extends Component {
             <p>Challenges: Since, this is a portfolio. I placed heavy emphasis on design. The most difficult part was trying to deal with
             animations and responsiveness. Still working in progress...</p>
             <p>Technologies: React, React-Router, CSS-animation, React-Bootstrap, Github API</p>
+            <button className="button-theme"><img src="../assets/github.svg" className="github-logo"/>GitHub</button>
+            <button className="button-theme">Live</button>
           </div>
 
           <div className="project-information">
@@ -38,6 +40,8 @@ export default class Projects extends Component {
             <p>Challenges: Since, this is a portfolio. I placed heavy emphasis on design. The most difficult part was trying to deal with
             animations and responsiveness. Still working in progress...</p>
             <p>Technologies: React, React-Router, CSS-animation, React-Bootstrap, Github API</p>
+            <button className="button-theme"><img src="../assets/github.svg" className="github-logo"/>GitHub</button>
+            <button className="button-theme">Live</button>
           </div>
 
           <div>
@@ -56,6 +60,8 @@ export default class Projects extends Component {
             <p>Challenges: Since, this is a portfolio. I placed heavy emphasis on design. The most difficult part was trying to deal with
             animations and responsiveness. Still working in progress...</p>
             <p>Technologies: React, React-Router, CSS-animation, React-Bootstrap, Github API</p>
+            <button className="button-theme"><img src="../assets/github.svg" className="github-logo"/>GitHub</button>
+            <button className="button-theme">Live</button>
           </div>
 
           <div className="project-information">
@@ -64,6 +70,8 @@ export default class Projects extends Component {
             <p>Challenges: Since, this is a portfolio. I placed heavy emphasis on design. The most difficult part was trying to deal with
             animations and responsiveness. Still working in progress...</p>
             <p>Technologies: React, React-Router, CSS-animation, React-Bootstrap, Github API</p>
+            <button className="button-theme"><img src="../assets/github.svg" className="github-logo"/>GitHub</button>
+            <button className="button-theme">Live</button>
           </div>
 
         </div>
