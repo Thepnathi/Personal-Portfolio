@@ -9,7 +9,7 @@ import AboutMe from './components/about-me';
 import Projects from './components/projects';
 import Contacts from './components/contacts';
 import './App.css';
-import './components/my-theme.css';
+import './components/stylesheet/my-theme.css';
 
 
 export default class App extends Component {
@@ -21,6 +21,7 @@ export default class App extends Component {
           <Route exact path="/" component={Home}></Route>
           <Route  path="/about-me" component={AboutMe}></Route>
           <Route path="/projects" component={Projects}></Route>
+          <Route path="/blog" component={Blog}></Route>
         </div>
       </Router>
     );
