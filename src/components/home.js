@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import AboutMe from './about-me';
 import MyFooter from './footer';
 import Projects from './projects';
-import './home.css';
+import './stylesheet/home.css';
 
 export default class Home extends Component {
   render() {

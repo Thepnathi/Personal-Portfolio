@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import './about-me.css';
+import './stylesheet/about-me.css';
 
 export default class MyFooter extends Component {
   render() {
