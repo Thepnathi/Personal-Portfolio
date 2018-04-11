@@ -16,18 +16,14 @@ import './components/stylesheet/my-theme.css';
 export default class App extends Component {
   render() {
     return (
-      <div>
-        <GitHubCalendar />
-      </div>
-      // <Router>
-      //   <div>
-      //     <MyNavbar />
-      //     <Route exact path="/" component={Home}></Route>
-      //     <Route  path="/about-me" component={AboutMe}></Route>
-      //     <Route path="/projects" component={Projects}></Route>
-      //     <Route path="/blog" component={Blog}></Route>
-      //   </div>
-      // </Router>
+      <Router>
+        <div>
+          <MyNavbar />
+          <Route exact path="/" component={Home}></Route>
+          <Route  path="/about-me" component={AboutMe}></Route>
+          <Route path="/projects" component={Projects}></Route>
+        </div>
+      </Router>
     );
   }
 }
