@@ -1,10 +1,23 @@
 /* Universal stylesheet */
 /* apply these class to change the theme */
 
-.theme-colour {
+.colour-theme {
   background: rgb(241, 244, 130);
   color: black;
 }
+
+.primary-color-theme {
+  color: black;
+}
+
+.secondary-color-theme {
+  color: #616161;
+}
+
+.element-theme {
+  color: rgb(245, 167, 34);
+}
+
 
 .section-header {
   font-family: 'Lato', sans-serif;
@@ -22,3 +35,5 @@
   height: 2em;
   width: 50%;
 }
+
+/* These are specific small themes  */

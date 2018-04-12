@@ -24,10 +24,10 @@ export default class Home extends Component {
                 (Available for internship from summer 2019). Member of the University of Liverpool Archery Club.</p>
             </div>
 
-            <div className="bio-box box3"><p className="intro-parts">Currrently working with the exciting MERN stack (MongoDB, Express, React and Node)</p></div>
-            <div className="bio-box box4"><p className="intro-parts">CS student with with creativity and problem solving skills.</p></div>
-            <div className="bio-box box5"><p className="intro-parts">Every projects built by me has a real life purpose. Want to hear a joke? Click here.</p></div>
-            <div className="bio-box box6"><p className="intro-parts">Have an idea to change the world? Or want to create something fun?
+            <div className="bio-box box3 secondary-color-theme"><p className="intro-parts">Currrently working with the exciting MERN stack (MongoDB, Express, React and Node)</p></div>
+            <div className="bio-box box4 secondary-color-theme"><p className="intro-parts">CS student with with creativity and problem solving skills.</p></div>
+            <div className="bio-box box5 secondary-color-theme"><p className="intro-parts">Every projects built by me has a real life purpose. Want to hear a joke? Click here.</p></div>
+            <div className="bio-box box6 secondary-color-theme"><p className="intro-parts">Have an idea to change the world? Or want to create something fun?
               <a componentClass={Link} href="/contacts" to="/contact"> Get in touch.</a></p></div>
           </div>
           <AboutMe />

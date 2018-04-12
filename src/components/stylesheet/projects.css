@@ -1,3 +1,9 @@
+.project-outer-wrapper {
+  width: 80%;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
 .project-wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -8,10 +14,11 @@
 
 .project-wrapper > div {
   width: 100%;
+  background: #eee;
 }
 
 .project-screenshot {
-  width: 90%;
+  width: 100%;
 
 }
 
