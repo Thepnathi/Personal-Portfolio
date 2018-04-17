@@ -11,3 +11,7 @@
 .contact-wrapper > div {
   background: #eee;
 }
+
+form {
+  width: 500px;
+}

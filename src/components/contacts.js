@@ -17,6 +17,7 @@ export default class Contacts extends Component {
   render() {
     return (
       <div className="contact-wrapper">
+        
           <div>
             <form>
                 Your Name:
@@ -27,8 +28,10 @@ export default class Contacts extends Component {
             </form>
           </div>
 
-          <div>
+          <div className = "email-form">
             <form>
+              Your Message:
+            <br />
               <input
                 type="text"
                 className="email-message"
@@ -36,7 +39,6 @@ export default class Contacts extends Component {
                 onChnage = {this.onInputChange}>
               </input>
             </form>
-
           </div>
 
           <button>djdjjdj</button>
