@@ -22,6 +22,7 @@ export default class Home extends Component {
               <h2>About Me</h2>
               <p>Aspiring software developer. Persuading computer science degree in University of Liverpool with a year in industry.
                 (Available for internship from summer 2019). Member of the University of Liverpool Archery Club.</p>
+                {/* NOTE: Remember to add social network logo here */}
             </div>
 
             <div className="bio-box box3 secondary-color-theme"><p className="intro-parts">Currrently working with the exciting MERN stack (MongoDB, Express, React and Node)</p></div>
