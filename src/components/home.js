@@ -21,8 +21,8 @@ export default class Home extends Component {
             <div className="box2 short-bio">
               <img className="intro-parts" className="profile-image" src="../assets/profile-pic.png"  href="somepage"/>
               <h2>About Me</h2>
-              <p>Aspiring software developer. Persuading computer science degree in University of Liverpool with a year in industry.
-                (Available for internship from summer 2019). Member of the University of Liverpool Archery Club.</p>
+              <p>My name is Thepnathi, I am currently studying in University of Liverpool. When I am not studying
+                or developing. You can find me in the gym or shooting with the University's Archery Club.</p>
                 {/* NOTE: Remember to add social network logo here */}
                 <div className="social-networks">
                   <div></div>
@@ -40,9 +40,9 @@ export default class Home extends Component {
                 <mark class="react">React.js</mark> and
                 <mark class="node">Node.js</mark>)</p></div>
             <div className="bio-box box4 secondary-color-theme"><p className="intro-parts">
-              CS student with with creativity and problem solving skills.</p></div>
+              Computer Science student with with creativity and problem solving skills.</p></div>
             <div className="bio-box box5 secondary-color-theme"><p className="intro-parts">
-              Every projects built by me has a real life purpose. Want to hear a joke? Click here.</p></div>
+              Every projects built by me has a real life purpose. <a href="#">Check out my blog</a>.</p></div>
             <div className="bio-box box6 secondary-color-theme"><p className="intro-parts">
               Have an idea to change the world? Or want to create something fun?
               <a componentClass={Link} href="/contacts" to="/contact"> Get in touch.</a></p></div>
