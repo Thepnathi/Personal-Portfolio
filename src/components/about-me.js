@@ -9,7 +9,11 @@ export default class AboutMe extends Component {
       <div>
         <div class="about-me-wrapper">
           <h2 class="section-header">Technologies and Skills</h2>
-          <img className="image-cloud" src="../assets/images/wordcloud.svg"/>
+
+          <div className="about-me-grid">
+            <div className="technology-grid">d</div>
+            <div>s</div>
+          </div>
         </div>
       </div>
     );

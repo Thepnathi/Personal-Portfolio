@@ -4,10 +4,11 @@
   heigth: 100%;
   min-height: 100%;
 }
-.image-cloud {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;
-  height: auto;
+
+.about-me-grid {
+  display: grid;
+  background: #eee;
+  grid-template-columns: 3fr 2fr;
+  grid-auto-rows: minmax(100px, auto);
+  height: 500px;
 }
