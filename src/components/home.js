@@ -24,12 +24,27 @@ export default class Home extends Component {
               <p>Aspiring software developer. Persuading computer science degree in University of Liverpool with a year in industry.
                 (Available for internship from summer 2019). Member of the University of Liverpool Archery Club.</p>
                 {/* NOTE: Remember to add social network logo here */}
+                <div className="social-networks">
+                  <div></div>
+                  <div><i class="fab fa-twitter-square"></i></div>
+                  <div><i class="fab fa-linkedin"></i></div>
+                  <div><i class="fab fa-medium"></i></div>
+                  <div><i class="fab fa-github-square"></i></div>
+                  <div></div>
+              </div>
             </div>
 
-            <div className="bio-box box3 secondary-color-theme"><p className="intro-parts">Currrently working with the exciting MERN stack (MongoDB, Express, React and Node)</p></div>
-            <div className="bio-box box4 secondary-color-theme"><p className="intro-parts">CS student with with creativity and problem solving skills.</p></div>
-            <div className="bio-box box5 secondary-color-theme"><p className="intro-parts">Every projects built by me has a real life purpose. Want to hear a joke? Click here.</p></div>
-            <div className="bio-box box6 secondary-color-theme"><p className="intro-parts">Have an idea to change the world? Or want to create something fun?
+            <div className="bio-box box3 secondary-color-theme"><p className="intro-parts">Currrently working with the exciting MERN stack
+               (<mark class="mongo">MongoDB</mark>,
+                <mark class="express">Express</mark>,
+                <mark class="react">React.js</mark> and
+                <mark class="node">Node.js</mark>)</p></div>
+            <div className="bio-box box4 secondary-color-theme"><p className="intro-parts">
+              CS student with with creativity and problem solving skills.</p></div>
+            <div className="bio-box box5 secondary-color-theme"><p className="intro-parts">
+              Every projects built by me has a real life purpose. Want to hear a joke? Click here.</p></div>
+            <div className="bio-box box6 secondary-color-theme"><p className="intro-parts">
+              Have an idea to change the world? Or want to create something fun?
               <a componentClass={Link} href="/contacts" to="/contact"> Get in touch.</a></p></div>
           </div>
           <AboutMe />

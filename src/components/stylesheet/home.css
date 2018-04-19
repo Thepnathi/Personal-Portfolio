@@ -74,6 +74,31 @@ h1 {
   letter-spacing: 1px;
 }
 
+.social-networks {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  font-size: 3.5em;
+}
+
+mark {
+  background: none;
+}
+
+mark.mongo {
+  color: #00c853;
+}
+
+mark.express {
+  color: #ff7043;
+}
+
+mark.react {
+  color: #29b6f6;
+}
+
+mark.node {
+  color: #651fff;
+}
 
 span {
   border-right: .05em solid;
