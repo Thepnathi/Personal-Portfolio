@@ -1,16 +1,13 @@
 # My Portfolio
 
-The goal is to create a single page portfolio to showcase my current and future experience, projects and personality.
+This is my personal portfolio to showcase my current and future experience, projects and personality.
+The portfolio is still heavily under progress, since this will be about design, which is something I am currently learning.
 
-# Objective
+# What this Portfolio will offer...
 
 * Add Twitter API
-* Responsive portfolio
-* Animation
+* Responsiveness
 * Clean User interface
-* Features UX
 * Showcase projects
 * Links to projects
 * Link to blog
-
-![alt text](../assets/portfolio-screenshot.png)
