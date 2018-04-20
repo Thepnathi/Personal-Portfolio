@@ -5,6 +5,7 @@ The portfolio is still heavily under progress, since this will be about design, 
 
 # What this Portfolio will offer...
 
+* React based portfolio - One page and better use of states
 * Add Twitter API
 * Responsiveness
 * Clean User interface
