@@ -74,11 +74,16 @@ h1 {
   letter-spacing: 1px;
 }
 
-.social-networks {
+.social-network-logo {
+  width: 15%;
+  margin-left: 40px;
+  margin-top: 15px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  font-size: 3.5em;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0.3em;
+  font-size: 3em;
 }
+
 
 mark {
   background: none;
