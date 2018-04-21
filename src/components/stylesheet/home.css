@@ -56,9 +56,11 @@
 
 .profile-image {
   height: 310px;
-  /* height: 510px !important; */
 }
 
+img:hover {
+  filter: brightness(60%);
+}
 
 h1 {
   font-family: 'Lato', sans-serif;

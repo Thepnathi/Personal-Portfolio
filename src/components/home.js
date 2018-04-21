@@ -27,7 +27,7 @@ export default class Home extends Component {
             </div>
 
             <div className="box2 short-bio">
-              <img className="intro-parts" className="profile-image" src="../assets/profile-pic.png"  href="somepage"/>
+              <img className="intro-parts" className="profile-image" src="../assets/professional-profile-image.jpg"  href="somepage"/>
               <h2>About Me</h2>
               <p>My name is Thepnathi, I am currently studying in University of Liverpool. I started coding seriously in 2018.
                 I have dabble with varies kinds of development. When I am not studying
