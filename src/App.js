@@ -8,7 +8,6 @@ import Home from './components/home';
 import AboutMe from './components/about-me';
 import Projects from './components/projects';
 import Contacts from './components/contacts';
-import GitHubCalendar from './components/github-calendar';
 import Footer from './components/footer';
 import './App.css';
 import './components/stylesheet/my-theme.css';
