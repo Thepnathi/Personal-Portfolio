@@ -1,6 +1,13 @@
 /* Universal stylesheet */
 /* apply these class to change the theme */
 
+/* NOTE: Testing suitable colour backgroud */
+
+body {
+  background-color: #fff59d;
+  background-color: #fffde7;
+}
+
 .colour-theme {
   background: rgb(241, 244, 130);
   color: black;
