@@ -29,19 +29,20 @@ export default class Home extends Component {
             <div className="box2 short-bio">
               <img className="intro-parts" className="profile-image" src="../assets/professional-profile-image.jpg"  href="somepage"/>
               <h2>About Me</h2>
-              <p>My name is Thepnathi, I am currently studying in University of Liverpool. I started coding seriously in 2018.
+              <p>Current student at University of Liverpool. I started coding seriously in 2018.
                 I have dabble with varies kinds of development. When I am not studying
                 or developing. You can find me in the gym or practicing with the University's Archery Club.
                 <a href="#"> Check my blog to learn more about me.</a></p>
             </div>
 
-            <div className="bio-box box3 secondary-color-theme"><p className="intro-parts">Currrently working with the exciting MERN stack
+            <div className="bio-box box4 secondary-color-theme"><p className="intro-parts">
+              Computer Science student with with creativity and problem solving skills.</p></div>
+            <div className="bio-box box3 secondary-color-theme">
+              <p className="intro-parts">Currrently developing with the MERN stack
                (<mark class="mongo">MongoDB</mark>,
                 <mark class="express">Express</mark>,
                 <mark class="react">React.js</mark> and
                 <mark class="node">Node.js</mark>)</p></div>
-            <div className="bio-box box4 secondary-color-theme"><p className="intro-parts">
-              Computer Science student with with creativity and problem solving skills.</p></div>
             <div className="bio-box box5 secondary-color-theme"><p className="intro-parts">
               Every projects built by me has a real life purpose. <a href="#">Want to read the funniest jokes?</a>.</p></div>
             <div className="bio-box box6 secondary-color-theme"><p className="intro-parts">

@@ -55,7 +55,10 @@
 }
 
 .profile-image {
-  height: 310px;
+  margin-top: 10px;
+  height: 210px;
+  width: 220px;
+  border-radius: 200px;
 }
 
 img:hover {
