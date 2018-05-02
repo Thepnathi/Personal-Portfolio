@@ -58,7 +58,8 @@
   margin-top: 10px;
   height: 210px;
   width: 220px;
-  border-radius: 200px;
+  /* border-radius: 200px; */
+  /* Testing with shapes */
 }
 
 img:hover {
