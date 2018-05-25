@@ -1,14 +1,5 @@
 # My Portfolio
 
-This is my personal portfolio to showcase my current and future experience, projects and personality.
+This is my personal portfolio to showcase my projects, work experience and promote my blog.
 The portfolio is still heavily under progress, since this will be about design, which is something I am currently learning.
 
-# What this Portfolio will offer...
-
-* React based portfolio - One page and better use of states
-* Add Twitter API
-* Responsiveness
-* Clean User interface
-* Showcase projects
-* Links to projects
-* Link to blog
