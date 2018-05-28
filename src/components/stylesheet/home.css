@@ -56,8 +56,8 @@
 
 .profile-image {
   margin-top: 10px;
-  height: 210px;
-  width: 220px;
+  /* height: 10px; */
+  width: 320px;
   /* border-radius: 200px; */
   /* Testing with shapes */
 }
