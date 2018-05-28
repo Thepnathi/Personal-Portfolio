@@ -9,10 +9,14 @@ body {
 }
 
 .colour-theme {
-  background: rgb(241, 244, 130);
+  /* background: rgb(241, 244, 130); */
+  background: #E24E42;
   color: black;
 }
-
+/* #E24E42 Papaya
+#E9B000 Mustard
+#EB6E80 Blush
+#008F95 Aqua */
 
 .primary-color-theme {
   color: black;
